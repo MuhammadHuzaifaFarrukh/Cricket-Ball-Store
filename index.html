@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Ball Store | Buy Kookaburra, Duke, SG - Red, White, Pink</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CricketBallStore</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="cart-icon"><a href="#"><i class="fas fa-shopping-cart"></i> Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Find Your Perfect Cricket Ball</h1>
+                <p>Premium Kookaburra, Duke, and SG Balls in Red, White & Pink.</p>
+                <button class="cta-button" onclick="location.href='#products'">Shop Now</button>
+            </div>
+        </section>
+
+        <section id="products" class="product-grid container">
+            <h2>Our Collection</h2>
+            <div class="filters">
+                <select id="brand-filter">
+                    <option value="">All Brands</option>
+                    <option value="Kookaburra">Kookaburra</option>
+                    <option value="Duke">Duke</option>
+                    <option value="SG">SG</option>
+                </select>
+                <select id="color-filter">
+                    <option value="">All Colors</option>
+                    <option value="Red">Red</option>
+                    <option value="White">White</option>
+                    <option value="Pink">Pink</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Search products...">
+            </div>
+            <div class="product-list" id="product-list">
+                </div>
+        </section>
+
+        <section id="featured-cricketers" class="container">
+            <h2>Used by the Best</h2>
+            <div class="cricketer-gallery">
+                <div class="cricketer-card">
+                    <img src="assets/images/shane warne.png" alt="Shane Warne">
+                    <h3>Shane Warne</h3>
+                    <p>Legendary Leg-spinner</p>
+                </div>
+                <div class="cricketer-card">
+                    <img src="assets/images/scott boland.png" alt="Scott Boland">
+                    <h3>Scott Boland</h3>
+                    <p>Pace Sensation</p>
+                </div>
+                <div class="cricketer-card">
+                    <img src="assets/images/mitchell starc.png" alt="Mitchell Starc">
+                    <h3>Mitchell Starc</h3>
+                    <p>Left-Arm Express</p>
+                </div>
+                <div class="cricketer-card">
+                    <img src="assets/images/bumrah.png" alt="Jasprit Bumrah">
+                    <h3>Jasprit Bumrah</h3>
+                    <p>Yorker King</p>
+                </div>
+                <div class="cricketer-card">
+                    <img src="assets/images/james anderson.png" alt="James Anderson">
+                    <h3>James Anderson</h3>
+                    <p>Swing Master</p>
+                </div>
+                <div class="cricketer-card">
+                    <img src="assets/images/wasim akram.png" alt="Wasim Akram">
+                    <h3>Wasim Akram</h3>
+                    <p>Sultan of Swing</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>At CricketBallStore, we're passionate about providing cricketers with the highest quality cricket balls for every format of the game. We stock authentic Kookaburra, Duke, and SG balls, trusted by professionals worldwide.</p>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question? Reach out to us!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CricketBallStore. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
