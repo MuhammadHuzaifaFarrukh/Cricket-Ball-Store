@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Dynamic Year Update
+    // This finds the element where the year should be and updates it to the current year
+    const yearElement = document.querySelector('footer p');
+    if (yearElement) {
+        const currentYear = new Date().getFullYear();
+        // This regex specifically replaces the "2025" in your footer text while keeping the rest
+        yearElement.innerHTML = yearElement.innerHTML.replace('2025', currentYear);
+    }
+
     // Mobile Navigation Toggle
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
