@@ -1,6 +1,6 @@
 /* Basic Reset & Global Styles */
 :root 
-{
+{   
     --primary-color: #0056b3; /* Darker blue for accents */
     --secondary-color: #6c757d; /* Grey for secondary text */
     --background-color: #f8f9fa; /* Light background */
@@ -404,3 +404,4 @@ footer {
     }
 
 }
+
