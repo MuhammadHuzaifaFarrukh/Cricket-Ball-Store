@@ -1,5 +1,6 @@
 /* Basic Reset & Global Styles */
-:root {
+:root 
+{
     --primary-color: #0056b3; /* Darker blue for accents */
     --secondary-color: #6c757d; /* Grey for secondary text */
     --background-color: #f8f9fa; /* Light background */
@@ -11,7 +12,8 @@
     --shadow-medium: rgba(0, 0, 0, 0.2);
 }
 
-body {
+body 
+{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
@@ -22,13 +24,15 @@ body {
     scroll-behavior: smooth;
 }
 
-.container {
+.container 
+{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-h1, h2, h3 {
+h1, h2, h3 
+{
     color: var(--heading-color);
     text-align: center;
     margin-bottom: 30px;
@@ -44,18 +48,21 @@ a {
     transition: color 0.3s ease;
 }
 
-a:hover {
+a:hover 
+{
     color: darken(var(--primary-color), 10%);
 }
 
-section {
+section 
+{
     padding: 80px 20px;
     background-color: var(--background-color);
     border-bottom: 1px solid var(--border-color);
 }
 
 /* Header & Navigation */
-header {
+header 
+{
     background-color: var(--card-background);
     box-shadow: 0 2px 5px var(--shadow-light);
     position: sticky;
@@ -395,4 +402,5 @@ footer {
     .cricketer-gallery {
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     }
+
 }
