@@ -3,7 +3,7 @@
 A modern, responsive e-commerce front-end application designed for cricket enthusiasts. This project features a dynamic product catalog with real-time filtering and a functional shopping cart system, showcasing clean UI/UX design and efficient DOM manipulation.
 
 ## 🚀 Live Demo
-**[View the Live Website][(https://cricketballstore.vercel.app/)]**
+**https://cricketballstore.vercel.app**
 
 ## ✨ Key Features
 * **Dynamic Product Catalog:** Automatically renders a collection of premium cricket balls (Kookaburra, Duke, SG).
